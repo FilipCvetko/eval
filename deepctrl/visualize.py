@@ -21,7 +21,7 @@ features = [
 
 st.title("DeepCTRL model evaluation")
 
-st.write("This is a simple demonstration of using rules to enhance deep learning. Currently only one rule has been applied - higher cholesterol, result in higher biological age. If alpha is set to 1.0 only rule will be followed, if alpha is 0.0 only the data will be used for inference - classical deep learning."
+st.write("This is a simple demonstration of using rules to enhance deep learning. Currently only one rule has been applied - higher cholesterol, result in higher biological age. If alpha is set to 1.0 only rule will be followed, if alpha is 0.0 only the data will be used for inference - classical deep learning.")
 
 col1, col2 = st.columns(2)
 
