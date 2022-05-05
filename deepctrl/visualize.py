@@ -1,7 +1,7 @@
 import streamlit as st
 import pickle
 import torch
-from src.ageclocks.blood.deepctrl.model import DeepCTRLModel, Encoder, Net
+from model import DeepCTRLModel, Encoder, Net
 
 # with open("/home/filip/IT/Longevize/machine-learning/src/ageclocks/blood/deepctrl/saved_models/model1.pkl", "rb") as file:
     # model = pickle.load(file)
